@@ -1,7 +1,7 @@
 # Multiplexer-Based 4-to-2 Encoder: A Simplified Approach
 
 This repo deals with the construction of a 4 to 2 encoder using 2x1 Mux gate using CMOS Skywater 130nm technology in 
-<a href="https://xschem.sourceforge.io/stefan/index.html" target="_blank">xschem</a> & obtaining its parameters through pre-layout simulation using 
+esim & obtaining its parameters through pre-layout simulation using 
 <a href="https://ngspice.sourceforge.io/" target="_blank">ngspice</a>.
 
 ## Abstract 
