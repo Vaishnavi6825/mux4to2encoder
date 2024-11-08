@@ -101,8 +101,8 @@ Future improvements could include:
 
 ## Acknowledgments
 
-I would like to express my sincere gratitude to:
-
+I would like to express my sincere gratitude to: <br>
+-  **VSD NIT, Jamshedpur**, for organizing this unique circuit hackathon challenge. <br>
 - **Saveetha Engineering College**, Chennai, for providing the resources and support needed to carry out this project.
 - **Prof.Dr.Navaneethan** for his guidance and mentorship throughout the design and research process.
 - **Sumantao Kar** sir for his dedicated guidance.
@@ -110,9 +110,9 @@ I would like to express my sincere gratitude to:
 - The instructors of the **Skywater CMOS Technology Workshop** for providing invaluable insights into IC design and simulation techniques.
 - Online open-source resources and communities that facilitated learning and implementation.
 
-Special thanks to all the individuals and platforms that contributed to the knowledge base used in this project.
- Chhand Niyogi - Mtech student NIT Jemshedpur.
- Tejas B G - UG student from bangalore.
+Special thanks to all the individuals and platforms that contributed to the knowledge base used in this project. <br>
+ Chhand Niyogi - Mtech student NIT Jemshedpur. <br>
+ Tejas B G - UG student from bangalore. <br>
 
 #### Template
 
@@ -120,7 +120,7 @@ Special thanks to all the individuals and platforms that contributed to the know
 
 #### Papers 
 
--Smith, R., and Brown, "Digital Logic Design: Principles and Practices," IEEE Press, 2023.
+ -Smith, R., and Brown, "Digital Logic Design: Principles and Practices," IEEE Press, 2023.
 - Patel, S., "Advanced Techniques in Encoder Design," Journal of Digital Circuits, Vol. 15, No. 3, 2023.
 - Aswapan, H., "Design Steps for a 4-to-2 Encoder," About FPGA, 2023.
 
