@@ -111,7 +111,7 @@ I would like to express my sincere gratitude to: <br>
 - Online open-source resources and communities that facilitated learning and implementation.
 
 Special thanks to all the individuals and platforms that contributed to the knowledge base used in this project. <br>
- Chhand Niyogi - Mtech student NIT Jemshedpur. <br>
+ Chhanda Niyogi - Mtech student NIT Jemshedpur. <br>
  Tejas B G - UG student from bangalore. <br>
 
 #### Template
