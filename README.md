@@ -11,7 +11,6 @@ This repo deals with the design and implementation of a  4 to 2 encoder using 2x
 ![image](https://github.com/user-attachments/assets/294f120e-670f-405b-b3d7-ce6278970d96)
 
 
-
 <br> <br> <br> 
 
 
@@ -23,7 +22,7 @@ This repo deals with the design and implementation of a  4 to 2 encoder using 2x
 
 ## Circuit Diagram 
 
-
+![image](https://github.com/user-attachments/assets/ae13a8a0-831e-405d-9b69-b390e5efa0a3)
 
 <br> <br>
 
@@ -49,26 +48,84 @@ This repo deals with the design and implementation of a  4 to 2 encoder using 2x
 <br> <br>
 <br>
 
-# Schematic Performance Characteristics
 
+## Schematic Performance Characteristics
+
+Currently, the performance characteristics, such as propagation delay, rise/fall times, and voltage levels, are being simulated. The design utilizes Skywater 130nm CMOS technology and aims to optimize the MUX-based 4-to-2 encoder for efficient digital logic implementation.
+
+The following characteristics are intended to be measured:
+
+| **Parameter** | **Description** |
+|---------------|-----------------|
+| `tpHL`        | Propagation delay from high to low transition |
+| `tpLH`        | Propagation delay from low to high transition |
+| `tr`          | Rise time (time for output to rise from 10% to 90% of VCC) |
+| `tf`          | Fall time (time for output to drop from 90% to 10% of VCC) |
+| `Voh`         | Output high voltage |
+| `Vol`         | Output low voltage |
+
+> **Note**: The final performance metrics and simulation waveform results are currently pending due to ongoing challenges with the simulation process. Once the results are obtained, this section will be updated with the relevant data.
 
 
 ## EDA Tools Used & Their Installation  
 
+The design and simulation were conducted using:
+- **eSim**: Open-source EDA tool for mixed-signal design.
+- **Ngspice**: Used for circuit simulation.
+- **Skywater 130nm PDK**: Technology node for CMOS design.
+
+Installation guides:
+- eSim: [eSim Documentation](https://esim.fossee.in/documentation)
+- Ngspice: [Ngspice Installation Guide](http://ngspice.sourceforge.net/)
+- Skywater PDK: [Skywater PDK GitHub](https://github.com/google/skywater-pdk)
+  
 
 ## Future Works
 
+The current MUX-based 4-to-2 encoder design offers a compact and efficient solution. 
+Future improvements could include:
+- **Optimizing the design** for reduced propagation delay and power consumption.
+- **Exploring higher-order encoders** using similar MUX-based configurations to further enhance scalability.
+- **Implementing the design on FPGA boards** for real-time applications and testing.
+
+---
+
 ## Contributers 
+
+ **Kiruthika M**  
+  Department of Electronics and Communication Engineering,  
+  Saveetha Engineering College, Chennai, India  
+  Email: kiruthi2922004@gmail.com
+
+> This project was designed and implemented by Kiruthika M as part of an academic exercise exploring digital design using Skywater 130nm CMOS technology.
 
 ## Acknowledgments
 
-## Contact Information
+I would like to express my sincere gratitude to:
+
+- **Saveetha Engineering College**, Chennai, for providing the resources and support needed to carry out this project.
+- **Prof.Dr.Navaneethan** for his guidance and mentorship throughout the design and research process.
+- **Sumantao Kar** sir for his dedicated guidance.
+- **Kunal Ghosh** Sir for his encouragement and guidance throughout the program.
+- The instructors of the **Skywater CMOS Technology Workshop** for providing invaluable insights into IC design and simulation techniques.
+- Online open-source resources and communities that facilitated learning and implementation.
+
+Special thanks to all the individuals and platforms that contributed to the knowledge base used in this project.
+ Chhand Niyogi - Mtech student NIT Jemshedpur.
+ Tejas B G - UG student from bangalore.
 
 #### Template
 
 - https://github.com/kunalg123/finalSubmissionFormat?tab=readme-ov-file
 
 #### Papers 
+
+-Smith, R., and Brown, "Digital Logic Design: Principles and Practices," IEEE Press, 2023.
+- Patel, S., "Advanced Techniques in Encoder Design," Journal of Digital Circuits, Vol. 15, No. 3, 2023.
+- Aswapan, H., "Design Steps for a 4-to-2 Encoder," About FPGA, 2023.
+
+> **Note**: The schematic design is still in progress. Once finalized, it will be added to the repository in the form of screenshots and simulation outputs.
+
 
 
 
